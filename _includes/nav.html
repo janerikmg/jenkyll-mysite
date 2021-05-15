@@ -1,0 +1,32 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    {% if  site.baseurl == "" %}
+       {% assign url = "/" %}
+    {% else %}
+      {% assign url = site.baseurl %}
+   {% endif %}
+    <a class="navbar-item" href="{{ url }}">
+      <img src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png" width="112" height="28">
+    </a>
+
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item" href="{% tl about %}">{% t nav.about %}</a>
+      <!-- <a class="navbar-item" href="{% tl nav.departments %}">{% t nav.departments %}</a> -->
+      <a class="navbar-item" href="/projects">{% t nav.projects %}</a>
+      <!-- <a class="navbar-item" href="{% tl jobs %}">{% t nav.jobs %}</a> -->
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+      </div>
+    </div>
+  </div>
+</nav>

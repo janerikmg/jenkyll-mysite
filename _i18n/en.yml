@@ -1,0 +1,18 @@
+global:
+  english: "english"
+  greek: "greek"
+  change_to: "Switch to"
+
+company_name: "Company Name"
+titles:
+  home: "Company Name - Official Home Page"
+index:
+  hero_header: "Hero Header"
+  hero_subtitle: "Hero Subtitle"
+nav:
+  about: "about"
+  departments: "departments"
+  projects: "projects"
+  jobs: "jobs"
+projects:
+  latest_projects: Latest projects

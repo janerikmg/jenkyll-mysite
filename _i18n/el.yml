@@ -1,0 +1,15 @@
+global:
+  english: "αγγλικά"
+  greek: "ελληνικά"
+  change_to: "αλλαγή σε"
+
+company_name: "Όνομα εταιρείας"
+titles:
+  home: "Όνομα εταιρείας - Επίσημη αρχική σελίδα"
+nav:
+  about: "ποιοι είμαστε"
+  departments: "τμήματα"
+  projects: "έργα"
+  jobs: "θέσεις εργασίας"
+projects:
+  latest_projects: Τελευταία έργα
