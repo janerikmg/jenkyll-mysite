@@ -4,6 +4,11 @@ title: "" # the name of your site, e.g. ACME Corp.
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
+  - jekyll-paginate-v2
 languages: ["en", "el"]
 exclude_from_localizations: ["javascript", "images", "css"]
 default_locale_in_subfolder: false
+pagination:
+  enabled: true
+  per_page: 2
+  permalink: '/page/:num/'
