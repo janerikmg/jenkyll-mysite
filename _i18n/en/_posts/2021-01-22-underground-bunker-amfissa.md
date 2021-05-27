@@ -1,13 +1,20 @@
 ---
-layout: project
-title:  "Underground Bunker"
+title: "Underground Bunker"
 tags: "Military Security"
+category: "defense"
 thumb: "/assets/1280x720.png"
+client: "Private"
+summary:
+  " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+budget: 1 Million Euro
+duration: 12 months
+architects: Despoina Florou
 ---
 
-# Underground Bunker for post apocalypse survival
+![My helpful screenshot](/assets/1280x720.png)
+
+# # {{ page.title }}
 
 **Athens**, Greece
 
-![My helpful screenshot](/assets/underground-bunker.jpeg)
- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{ page.summary }}

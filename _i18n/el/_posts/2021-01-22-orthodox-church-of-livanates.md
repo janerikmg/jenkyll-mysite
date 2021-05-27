@@ -1,5 +1,4 @@
 ---
-layout: project
 title:  "Ορθόδοξη Εκκλησία των Λιβανατών "
 tags: "Θρησκευτικός"
 thumb: "/assets/1280x720.png"
@@ -11,4 +10,4 @@ thumb: "/assets/1280x720.png"
 
 Βρίσκεται στους πρόποδες του Livanates με πανοραμική θέα στη θάλασσα
 500μ2
-![My helpful screenshot](/assets/cloister-ge18d1c372_1280.jpeg)
+![My helpful screenshot](/assets/1280x720.png)

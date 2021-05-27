@@ -1,6 +1,6 @@
 url: "http://mysite.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Despoina Florou Structural Design" # the name of your site, e.g. ACME Corp.
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
@@ -12,3 +12,16 @@ pagination:
   enabled: true
   per_page: 2
   permalink: '/page/:num/'
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "default"

@@ -1,4 +1,4 @@
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<nav id="navbar" class="navbar transparent is-transparent sticky is-dark" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     {% if  site.baseurl == "" %}
        {% assign url = "/" %}
@@ -6,7 +6,14 @@
       {% assign url = site.baseurl %}
    {% endif %}
     <a class="navbar-item" href="{{ url }}">
-      <img src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png" width="112" height="28">
+      <img class="logo-top"
+           src="/assets/logo-placeholder-white-320x54.png"
+           srcset=""
+           alt="site logo">
+      <img class="logo-scrolled display-none"
+           src="/assets/logo-placeholder-black-320x54.png"
+           srcset=""
+           alt="site logo">
     </a>
 
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
